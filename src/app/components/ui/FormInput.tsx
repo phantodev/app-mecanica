@@ -2,7 +2,13 @@ import React from "react";
 import { StyleSheet, Text, TextInput, View } from "react-native";
 import { Controller } from "react-hook-form";
 
-export const FormInput = ({ control, name, ...otheProps }: any) => {
+export const FormInput = ({
+  control,
+  name,
+  label,
+  secureTextEntry,
+  ...otherProps
+}: any) => {
   return (
     <Controller
       control={control}
@@ -12,8 +18,18 @@ export const FormInput = ({ control, name, ...otheProps }: any) => {
         fieldState: { error },
       }) => (
         <>
-          <Text style={styles.label}>{name}</Text>
-          <TextInput style={styles.input} />
+          <Text style={styles.label}>{label}</Text>
+          <TextInput
+            style={styles.input}
+            secureTextEntry={secureTextEntry}
+            value={value}
+            onChangeText={onChange}
+            onBlur={onBlur}
+            {...otherProps}
+          />
+          <View>
+            {error && <Text style={styles.errorMessage}>{error.message}</Text>}
+          </View>
         </>
       )}
     />
@@ -21,6 +37,12 @@ export const FormInput = ({ control, name, ...otheProps }: any) => {
 };
 
 const styles = StyleSheet.create({
+  errorMessage: {
+    color: "red",
+    textAlign: "left",
+    fontSize: 12,
+    paddingTop: 3,
+  },
   input: {
     borderStyle: "solid",
     height: 48,
