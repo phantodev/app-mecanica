@@ -18,7 +18,7 @@ export const FormInput = ({
         fieldState: { error },
       }) => (
         <>
-          <Text style={styles.label}>{label}</Text>
+          {label !== "" && <Text style={styles.label}>{label}</Text>}
           <TextInput
             style={styles.input}
             secureTextEntry={secureTextEntry}

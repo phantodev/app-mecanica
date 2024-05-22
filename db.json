@@ -1,0 +1,36 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Fiat",
+      "model": "Panda",
+      "year": 2019,
+      "price": 20000,
+      "plate": "BAD-8989"
+    },
+    {
+      "id": 2,
+      "brand": "Fiat",
+      "model": "Panda",
+      "year": 2019,
+      "price": 20000,
+      "plate": "DUD-8978"
+    },
+    {
+      "id": 3,
+      "brand": "Fiat",
+      "model": "Panda",
+      "year": 2019,
+      "price": 20000,
+      "plate": "RCR-2556"
+    },
+    {
+      "id": 4,
+      "brand": "Fiat",
+      "model": "Panda",
+      "year": 2019,
+      "price": 20000,
+      "plate": "TES-5656"
+    }
+  ]
+}

@@ -10,11 +10,11 @@ import { FormInput } from "./components/ui/FormInput";
 import { useForm } from "react-hook-form";
 import app from "../../firebase";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
-import { Link } from "expo-router";
+import { Link, router } from "expo-router";
 import Toast from "react-native-toast-message";
 import React from "react";
 
-export default function App() {
+export default function Homer() {
   const [status, setStatus] = React.useState("idle");
   const { control, handleSubmit } = useForm();
 
@@ -26,9 +26,12 @@ export default function App() {
       await signInWithEmailAndPassword(auth, data.email, data.password);
       Toast.show({
         type: "success",
-        text1: "Cadastro",
-        text2: "Cadastro efetuado com sucesso! 👋",
+        text1: "Login",
+        text2: "Login efetuado com sucesso! 👋",
       });
+      setTimeout(() => {
+        router.replace("/checkin");
+      }, 5000); // Atraso de 1 segundo (1000 milissegundos)
     } catch (error) {
       Toast.show({
         type: "error",
