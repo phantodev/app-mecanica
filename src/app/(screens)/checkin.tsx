@@ -27,7 +27,7 @@ export default function Checkin() {
         if (response?.length > 0) {
           Alert.alert("Encontrei o carro!");
         } else {
-          Alert.alert("Nenhum carro encontrado!");
+          router.replace("/typevehicle");
         }
       }
     } catch (error) {

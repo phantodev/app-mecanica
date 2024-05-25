@@ -32,5 +32,243 @@
       "price": 20000,
       "plate": "TES-5656"
     }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "type": "Carro",
+      "brand": "Fiat",
+      "iconUrl": "https://i.ibb.co/r6C1RzP/fiat.jpg"
+    },
+    {
+      "id": 2,
+      "type": "Carro",
+      "brand": "Ford",
+      "iconUrl": "https://i.ibb.co/1bH2HrZ/ford.jpg"
+    },
+    {
+      "id": 3,
+      "type": "Moto",
+      "brand": "Honda",
+      "iconUrl": "http://static.vecteezy.com/ti/vetor-gratis/p1/63793-logotipo-da-ford-gratis-vetor.jpg"
+    },
+    {
+      "id": 4,
+      "type": "Moto",
+      "brand": "Suzuki",
+      "iconUrl": "../../../assets/icons/ford.jpg"
+    }
+  ],
+  "models": [
+    {
+      "id": 1,
+      "type": "Carro",
+      "brand": "Fiat",
+      "model": "Punto",
+      "iconUrl": "../../../assets/icons/punto.jpg"
+    },
+    {
+      "id": 2,
+      "type": "Carro",
+      "brand": "Fiat",
+      "model": "Uno",
+      "iconUrl": "../../../assets/icons/uno.jpg"
+    },
+    {
+      "id": 3,
+      "type": "Carro",
+      "brand": "Fiat",
+      "model": "Palio",
+      "iconUrl": "../../../assets/icons/palio.jpg"
+    },
+    {
+      "id": 4,
+      "type": "Carro",
+      "brand": "Fiat",
+      "model": "Strada",
+      "iconUrl": "../../../assets/icons/strada.jpg"
+    },
+    {
+      "id": 5,
+      "type": "Carro",
+      "brand": "Fiat",
+      "model": "Toro",
+      "iconUrl": "../../../assets/icons/toro.jpg"
+    },
+    {
+      "id": 6,
+      "type": "Carro",
+      "brand": "Fiat",
+      "model": "Argo",
+      "iconUrl": "../../../assets/icons/argo.jpg"
+    },
+    {
+      "id": 7,
+      "type": "Carro",
+      "brand": "Fiat",
+      "model": "Cronos",
+      "iconUrl": "../../../assets/icons/cronos.jpg"
+    },
+    {
+      "id": 8,
+      "type": "Carro",
+      "brand": "Fiat",
+      "model": "Mobi",
+      "iconUrl": "../../../assets/icons/mobi.jpg"
+    },
+    {
+      "id": 9,
+      "type": "Carro",
+      "brand": "Fiat",
+      "model": "Fiorino",
+      "iconUrl": "../../../assets/icons/fiorino.jpg"
+    },
+    {
+      "id": 10,
+      "type": "Carro",
+      "brand": "Fiat",
+      "model": "500",
+      "iconUrl": "../../../assets/icons/500.jpg"
+    },
+    {
+      "id": 11,
+      "type": "Carro",
+      "brand": "Ford",
+      "model": "Fiesta",
+      "iconUrl": "../../../assets/icons/fiesta.jpg"
+    },
+    {
+      "id": 12,
+      "type": "Carro",
+      "brand": "Ford",
+      "model": "Focus",
+      "iconUrl": "../../../assets/icons/focus.jpg"
+    },
+    {
+      "id": 13,
+      "type": "Carro",
+      "brand": "Ford",
+      "model": "Ka",
+      "iconUrl": "../../../assets/icons/ka.jpg"
+    },
+    {
+      "id": 14,
+      "type": "Carro",
+      "brand": "Ford",
+      "model": "EcoSport",
+      "iconUrl": "../../../assets/icons/ecosport.jpg"
+    },
+    {
+      "id": 15,
+      "type": "Carro",
+      "brand": "Ford",
+      "model": "Edge",
+      "iconUrl": "../../../assets/icons/edge.jpg"
+    },
+    {
+      "id": 16,
+      "type": "Carro",
+      "brand": "Ford",
+      "model": "Ranger",
+      "iconUrl": "../../../assets/icons/ranger.jpg"
+    },
+    {
+      "id": 17,
+      "type": "Carro",
+      "brand": "Ford",
+      "model": "Mustang",
+      "iconUrl": "../../../assets/icons/mustang.jpg"
+    },
+    {
+      "id": 18,
+      "type": "Carro",
+      "brand": "Ford",
+      "model": "Fusion",
+      "iconUrl": "../../../assets/icons/fusion.jpg"
+    },
+    {
+      "id": 19,
+      "type": "Carro",
+      "brand": "Ford",
+      "model": "Escape",
+      "iconUrl": "../../../assets/icons/escape.jpg"
+    },
+    {
+      "id": 20,
+      "type": "Carro",
+      "brand": "Ford",
+      "model": "Explorer",
+      "iconUrl": "../../../assets/icons/explorer.jpg"
+    },
+    {
+      "id": 21,
+      "type": "Moto",
+      "brand": "Honda",
+      "model": "CB 300",
+      "iconUrl": "../../../assets/icons/cb-300.jpg"
+    },
+    {
+      "id": 22,
+      "type": "Moto",
+      "brand": "Honda",
+      "model": "CG 160",
+      "iconUrl": "../../../assets/icons/cg-160.jpg"
+    },
+    {
+      "id": 23,
+      "type": "Moto",
+      "brand": "Honda",
+      "model": "CBR 500R",
+      "iconUrl": "../../../assets/icons/cbr-500r.jpg"
+    },
+    {
+      "id": 24,
+      "type": "Moto",
+      "brand": "Honda",
+      "model": "Africa Twin",
+      "iconUrl": "../../../assets/icons/africa-twin.jpg"
+    },
+    {
+      "id": 25,
+      "type": "Moto",
+      "brand": "Honda",
+      "model": "XRE 300",
+      "iconUrl": "../../../assets/icons/xre-300.jpg"
+    },
+    {
+      "id": 26,
+      "type": "Moto",
+      "brand": "Suzuki",
+      "model": "Xing Ling 700",
+      "iconUrl": "../../../assets/icons/xing-ling.jpg"
+    },
+    {
+      "id": 27,
+      "type": "Moto",
+      "brand": "Suzuki",
+      "model": "GSX-R1000",
+      "iconUrl": "../../../assets/icons/gsx-r1000.jpg"
+    },
+    {
+      "id": 28,
+      "type": "Moto",
+      "brand": "Suzuki",
+      "model": "V-Strom 650",
+      "iconUrl": "../../../assets/icons/v-strom-650.jpg"
+    },
+    {
+      "id": 29,
+      "type": "Moto",
+      "brand": "Suzuki",
+      "model": "Hayabusa",
+      "iconUrl": "../../../assets/icons/hayabusa.jpg"
+    },
+    {
+      "id": 30,
+      "type": "Moto",
+      "brand": "Suzuki",
+      "model": "Burgman 400",
+      "iconUrl": "../../../assets/icons/burgman-400.jpg"
+    }
   ]
 }

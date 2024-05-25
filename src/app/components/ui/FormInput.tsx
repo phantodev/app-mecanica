@@ -6,6 +6,8 @@ export const FormInput = ({
   control,
   name,
   label,
+  multiline,
+  lines,
   secureTextEntry,
   ...otherProps
 }: any) => {
@@ -21,6 +23,8 @@ export const FormInput = ({
           {label !== "" && <Text style={styles.label}>{label}</Text>}
           <TextInput
             style={styles.input}
+            multiline
+            numberOfLines={4}
             secureTextEntry={secureTextEntry}
             value={value}
             onChangeText={onChange}
@@ -45,7 +49,6 @@ const styles = StyleSheet.create({
   },
   input: {
     borderStyle: "solid",
-    height: 48,
     borderColor: "#c3c3c3",
     borderWidth: 1,
     borderRadius: 50,

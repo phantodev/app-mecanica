@@ -5,6 +5,7 @@ import {
   View,
   Pressable,
   ActivityIndicator,
+  Alert,
 } from "react-native";
 import { FormInput } from "./components/ui/FormInput";
 import { useForm } from "react-hook-form";
@@ -19,6 +20,16 @@ export default function Homer() {
   const { control, handleSubmit } = useForm();
 
   const auth = getAuth(app);
+
+  React.useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      if (user) {
+        router.replace("/vehiclephotos");
+      }
+    });
+
+    return () => unsubscribe();
+  }, []);
 
   async function onSubmit(data: any) {
     try {

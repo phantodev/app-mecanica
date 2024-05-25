@@ -11,9 +11,11 @@
   "dependencies": {
     "@expo/metro-runtime": "~3.2.1",
     "@react-native-async-storage/async-storage": "^1.23.1",
+    "@shopify/flash-list": "1.6.4",
     "axios": "^1.7.2",
     "expo": "~51.0.8",
     "expo-constants": "~16.0.1",
+    "expo-image": "~1.12.9",
     "expo-linking": "~6.3.1",
     "expo-router": "~3.5.14",
     "expo-status-bar": "~1.12.1",
@@ -27,11 +29,14 @@
     "react-native-screens": "3.31.1",
     "react-native-svg": "15.2.0",
     "react-native-toast-message": "^2.2.0",
-    "react-native-web": "~0.19.10"
+    "react-native-web": "~0.19.10",
+    "zustand": "^4.5.2",
+    "expo-camera": "~15.0.9"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.45",
+    "reactotron-react-native": "^5.1.7",
     "typescript": "~5.3.3"
   },
   "private": true
