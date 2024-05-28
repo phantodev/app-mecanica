@@ -10,6 +10,7 @@ interface ICheckinPayload {
   vehicleYear: number;
   ownerId: string;
   vehicleDetails: string;
+  vehiclePhotoDetails: string;
   photos: string[];
 }
 
@@ -30,8 +31,9 @@ export const useStore = create<Store>()((set) => ({
     vehicleModel: "",
     vehicleColor: "",
     vehicleYear: 0,
-    ownerId: "",
+    ownerId: "vber1-565e-rrtt",
     vehicleDetails: "",
+    vehiclePhotoDetails: "",
     photos: [],
   },
   setCheckinPayload: (payload) => set(() => ({ checkinPayload: payload })),

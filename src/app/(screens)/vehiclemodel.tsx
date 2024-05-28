@@ -1,12 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import {
-  StyleSheet,
-  View,
-  Text,
-  Platform,
-  Pressable,
-  Alert,
-} from "react-native";
+import { StyleSheet, View, Text, Pressable, Alert } from "react-native";
 import Toast from "react-native-toast-message";
 import React from "react";
 import { router } from "expo-router";
@@ -61,6 +54,7 @@ export default function VehicleModel() {
       vehicleYear: 0,
       ownerId: "",
       vehicleDetails: "",
+      vehiclePhotoDetails: "",
       photos: [],
     });
   }
@@ -151,7 +145,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "flex-start",
     justifyContent: "flex-start",
-    marginTop: Platform.OS === "android" ? 24 : 40,
+    marginTop: 24,
     paddingVertical: 30,
     textAlign: "center",
   },

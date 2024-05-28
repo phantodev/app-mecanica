@@ -3,7 +3,6 @@ import {
   StyleSheet,
   View,
   Text,
-  Platform,
   Pressable,
   ActivityIndicator,
   Alert,
@@ -61,6 +60,7 @@ export default function VehicleBrand() {
       vehicleYear: 0,
       ownerId: "",
       vehicleDetails: "",
+      vehiclePhotoDetails: "",
       photos: [],
     });
   }
@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "flex-start",
     justifyContent: "flex-start",
-    marginTop: Platform.OS === "android" ? 24 : 40,
+    marginTop: 24,
     padding: 30,
     textAlign: "center",
   },

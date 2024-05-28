@@ -8,9 +8,9 @@ import {
   Alert,
   ActivityIndicator,
 } from "react-native";
-import { FormInput } from "../components/ui/FormInput";
+import { FormInput } from "./components/ui/FormInput";
 import { useForm } from "react-hook-form";
-import app from "../../../firebase";
+import app from "../../firebase";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { Link, router } from "expo-router";
 import Toast from "react-native-toast-message";

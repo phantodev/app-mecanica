@@ -1,5 +1,4 @@
 import { Stack } from "expo-router";
-import "../../reactotron";
 
 export default function Layout() {
   return (
@@ -8,8 +7,11 @@ export default function Layout() {
       screenOptions={{
         headerShown: false,
       }}>
-      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-      <Stack.Screen name="signup" options={{ headerShown: false }} />
+      <Stack.Screen name="typevehicle" />
+      <Stack.Screen name="vehiclebrand" />
+      <Stack.Screen name="vehiclemodel" />
+      <Stack.Screen name="vehicledetail" />
+      <Stack.Screen name="vehiclesignature" />
     </Stack>
   );
 }

@@ -1,4 +1,4 @@
-import { StyleSheet, Platform } from "react-native";
+import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   containerButtons: {
@@ -57,17 +57,32 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     gap: 10,
   },
+  errorMessage: {
+    color: "red",
+    textAlign: "left",
+    fontSize: 12,
+    paddingTop: 3,
+  },
+  textArea: {
+    padding: 25,
+    borderColor: "#c3c3c3",
+    borderWidth: 1,
+    justifyContent: "flex-start",
+    borderRadius: 20,
+    width: "100%",
+    marginTop: 20,
+  },
   containerPhotos: {
     flex: 1,
     width: "100%",
-    justifyContent: "space-between",
+    justifyContent: "flex-start",
   },
   container: {
     display: "flex",
     flex: 1,
     alignItems: "flex-start",
     justifyContent: "flex-start",
-    marginTop: Platform.OS === "android" ? 24 : 40,
+    marginTop: 24,
     padding: 30,
     textAlign: "center",
   },
@@ -76,7 +91,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    marginTop: Platform.OS === "android" ? 24 : 40,
+    marginTop: 24,
     padding: 30,
     textAlign: "center",
   },

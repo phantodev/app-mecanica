@@ -24,7 +24,7 @@ export default function Homer() {
   React.useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user) {
-        router.replace("/vehiclephotos");
+        router.replace("/checkin");
       }
     });
 

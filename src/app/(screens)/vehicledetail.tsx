@@ -3,7 +3,6 @@ import {
   StyleSheet,
   View,
   Text,
-  Platform,
   Pressable,
   Alert,
   ActivityIndicator,
@@ -31,6 +30,7 @@ export default function VehicleDetail() {
       vehicleYear: data.vehicleYear,
       ownerId: "",
       vehicleDetails: data.vehicleDetails,
+      vehiclePhotoDetails: "",
       photos: [],
     });
     // console.tron.log(data);
@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "flex-start",
     justifyContent: "flex-start",
-    marginTop: Platform.OS === "android" ? 24 : 40,
+    marginTop: 24,
     padding: 30,
     textAlign: "center",
   },
